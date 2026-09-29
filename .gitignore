@@ -1,0 +1,13 @@
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+
+# Signing: keep the keystore and its passwords out of git.
+keystore.properties
+*.jks
+*.keystore
+
+*.apk
+*.aab
