@@ -52,6 +52,7 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
   crypto: ^3.0.7
+  flutter_launcher_icons: ^0.14.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -97,3 +98,16 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+# Launcher icons: `dart run flutter_launcher_icons` regenerates them from
+# assets/icon. The Android adaptive icon puts the full artwork on its own
+# edge colour; the generated 16% inset fits it to the safe zone, so any
+# launcher mask keeps the headphones whole and hides the tile edge.
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/icon.png
+  remove_alpha_ios: true
+  adaptive_icon_background: "#E08C5E"
+  adaptive_icon_foreground: assets/icon/foreground.png
+  min_sdk_android: 24

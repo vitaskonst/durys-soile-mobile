@@ -46,6 +46,7 @@ class DurysSoileApp extends StatelessWidget {
         return ListenableBuilder(
           listenable: locale,
           builder: (context, _) => MaterialApp(
+            debugShowCheckedModeBanner: false,
             onGenerateTitle: (context) => AppLocalizations.of(context).appTitle,
             theme: lightTheme,
             darkTheme: darkTheme,
