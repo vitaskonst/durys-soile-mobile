@@ -1,0 +1,16 @@
+#!/bin/sh
+# Runs Flutter from the image built from tool/flutter.Dockerfile, for machines
+# without a local Flutter install. Usage: tool/flutter <flutter arguments>
+#   docker build -t durys-soile-flutter:3.47.5 -f tool/flutter.Dockerfile tool
+#   tool/flutter test
+# The container runs as root, so afterwards the project's files are handed
+# back to the calling user. Package caches persist in Docker volumes.
+set -e
+exec docker run --rm --network host \
+    -v "$PWD":/app -w /app \
+    -v durys-soile-pub-cache:/root/.pub-cache \
+    -v durys-soile-gradle:/root/.gradle \
+    -e HOST_UID="$(id -u)" -e HOST_GID="$(id -g)" \
+    ${FLUTTER_DOCKER_ARGS} \
+    durys-soile-flutter:3.47.5 \
+    sh -c 'flutter "$@"; status=$?; chown -R "$HOST_UID:$HOST_GID" /app; exit $status' flutter "$@"

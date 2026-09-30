@@ -1,0 +1,123 @@
+{
+  "@@locale": "kk",
+  "appTitle": "Дұрыс сөйле",
+  "@appTitle": {
+    "description": "App name, the same in every language."
+  },
+  "navWords": "Сөздер",
+  "@navWords": {
+    "description": "Bottom navigation: the word lists."
+  },
+  "navFavorites": "Таңдаулылар",
+  "@navFavorites": {
+    "description": "Bottom navigation: saved words."
+  },
+  "navInfo": "Қосымша туралы",
+  "@navInfo": {
+    "description": "Bottom navigation: about the app."
+  },
+  "tabMispronounced": "Жиі қате айтылатын сөздер",
+  "@tabMispronounced": {
+    "description": "Tab: words that are commonly mispronounced."
+  },
+  "tabParasite": "Бөгде сөздер",
+  "@tabParasite": {
+    "description": "Tab: foreign words with their Kazakh equivalents."
+  },
+  "searchHint": "Іздейтін сөзіңізді енгізіңіз",
+  "@searchHint": {
+    "description": "Search field placeholder; searches words by their beginning."
+  },
+  "searchClear": "Тазалау",
+  "@searchClear": {
+    "description": "Button that clears the search field."
+  },
+  "listen": "Тыңдау",
+  "@listen": {
+    "description": "Play a word's pronunciation."
+  },
+  "stop": "Тоқтату",
+  "@stop": {
+    "description": "Stop playback."
+  },
+  "emptyTitle": "Табылмады",
+  "@emptyTitle": {
+    "description": "A search found nothing."
+  },
+  "emptySubtitle": "Басқа сөзді іздеп көріңіз",
+  "@emptySubtitle": {
+    "description": "Hint below emptyTitle."
+  },
+  "errorTitle": "Қызмет уақытша қолжетімсіз",
+  "@errorTitle": {
+    "description": "The word lists could not be loaded."
+  },
+  "errorSubtitle": "Интернет байланысын тексеріп, қайталап көріңіз",
+  "@errorSubtitle": {
+    "description": "Hint below errorTitle."
+  },
+  "retry": "Қайталау",
+  "@retry": {
+    "description": "Retry a failed load."
+  },
+  "audioError": "Дыбысты ойнату мүмкін болмады",
+  "@audioError": {
+    "description": "A pronunciation could not be played."
+  },
+  "detailIncorrect": "Дұрыс емес",
+  "@detailIncorrect": {
+    "description": "Label of an example sentence using the word wrongly."
+  },
+  "detailCorrect": "Дұрыс",
+  "@detailCorrect": {
+    "description": "Label of the corrected example sentence."
+  },
+  "addFavorite": "Таңдаулыларға қосу",
+  "@addFavorite": {
+    "description": "Button: save a word to favorites."
+  },
+  "removeFavorite": "Таңдаулылардан алып тастау",
+  "@removeFavorite": {
+    "description": "Button: remove a word from favorites."
+  },
+  "favoriteSaveError": "Сөзді сақтау мүмкін болмады",
+  "@favoriteSaveError": {
+    "description": "A word could not be saved to favorites (e.g. no internet)."
+  },
+  "favoritesEmptyTitle": "Таңдаулы сөздер жоқ",
+  "@favoritesEmptyTitle": {
+    "description": "Favorites tab with no saved words."
+  },
+  "favoritesEmptySubtitle": "Сөздің жанындағы ☆ белгісін басып, оны осында сақтаңыз. Таңдаулы сөздерді интернетсіз де тыңдауға болады.",
+  "@favoritesEmptySubtitle": {
+    "description": "Explains how to add favorites and that they work offline."
+  },
+  "favoriteRemovedFromDictionary": "Сөздіктен алынып тасталды",
+  "@favoriteRemovedFromDictionary": {
+    "description": "A saved word that was deleted from the dictionary."
+  },
+  "language": "Тіл",
+  "@language": {
+    "description": "Setting: the app's interface language."
+  },
+  "languageSystem": "Құрылғы тілі",
+  "@languageSystem": {
+    "description": "Language option: follow the phone's language."
+  },
+  "infoTitle": "Қосымша туралы",
+  "@infoTitle": {
+    "description": "Heading of the About screen."
+  },
+  "infoBody": "Қазақ тіліндегі тілдік бірліктердің дұрыс дыбысталуын тыңдауға мүмкіндік беретін бұл қосымша екі бөлімнен тұрады.\n\nБірінші бөлім қазақ тілінде жиі қолданылатын сөздерді дұрыс айтуға, дұрыс дыбыстауға үйретеді.\n\nЕкінші бөлімде күнделікті қолданыстағы, бәлкім қазақша баламасын білмей жүрген бөгде тіл сөздерінің қазақ тіліндегі нұсқасы беріледі. Түсінікті болу үшін олар мысал ретінде сөйлеммен және дұрыс дыбысталуымен берілген. Қосымша қазақ тілінде жақсы сөйлегісі келетіндерге қажетті құралы болады деген сенімдеміз!",
+  "@infoBody": {
+    "description": "About the app."
+  },
+  "infoThanks": "Қосымшаны жасауға мүмкіндік берген Назарбаев Университетіне алғыс білдіреміз.",
+  "@infoThanks": {
+    "description": "Acknowledgement."
+  },
+  "infoGrant": "Жоба демеушісі туралы сілтеме: 021220FD4351.",
+  "@infoGrant": {
+    "description": "Grant reference; keep the number as is."
+  }
+}
