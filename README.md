@@ -32,6 +32,16 @@ tool/flutter build apk --dart-define=API_BASE_URL=https://example.org/api/v1.0
 
 iOS builds need macOS and Xcode.
 
+## CI
+
+`.github/workflows/build.yml` runs the analyzer and tests, then builds a
+release APK and App Bundle on Linux and an iOS release build on a hosted
+macOS runner, so no Mac is needed. The builds take the backend URL from the
+`API_BASE_URL` repository variable (Settings → Secrets and variables →
+Actions → Variables) and stop with an error if it is not set. The artifacts
+are not store-signed yet: the Android ones carry Flutter's debug key and the
+iOS build is unsigned.
+
 ## Favourites
 
 A favourite stores the word as the API returned it and its MP3 on the
